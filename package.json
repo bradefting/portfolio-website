@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradefting/portfolio-website.git"
+  },
+  "author": "Brad Efting",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradefting/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/bradefting/portfolio-website#readme"
+}
