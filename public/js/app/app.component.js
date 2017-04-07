@@ -11,6 +11,8 @@
     function appController(){
       const vm = this;
 
+      console.log(vm);
+
     }
 
 }());
