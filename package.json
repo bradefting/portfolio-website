@@ -4,14 +4,16 @@
   "description": "Portfolio Website",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.0",
     "knex": "^0.12.9",
+    "nodemon": "^1.11.0",
     "pg": "^6.1.5"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
