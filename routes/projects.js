@@ -6,8 +6,8 @@ const knex = require('../knex');
 
 //get all
 router.get('/', (req, res, next) =>{
-  knex('projects')
-     .select('id', 'title', 'description', 'technologies', 'image')
+  knex('portfolio_projects')
+     .select('*')
      .then((results)=>{
        res.send(results);
      })
@@ -18,8 +18,8 @@ router.get('/', (req, res, next) =>{
 
 //get by id
 router.get('/:id', (req, res, next) =>{
-  knex('projects')
-     .select('id', 'title', 'description', 'technologies', 'image')
+  knex('portfolio_projects')
+     .select('*')
      .where('id', req.params.id)
      .then((results)=>{
        res.send(results[0]);
@@ -31,7 +31,7 @@ router.get('/:id', (req, res, next) =>{
 
 //post new
 router.post('/', (req, res, next) =>{
-  knex('projects')
+  knex('portfolio_projects')
      .insert({
        title: req.body.title,
        description: req.body.description,
@@ -51,7 +51,7 @@ router.post('/', (req, res, next) =>{
 
 //update
 router.patch('/:id', (req, res, next) =>{
-  knex('projects')
+  knex('portfolio_projects')
      .where('id', req.params.id)
      .update({
        title: req.body.title,
@@ -72,7 +72,7 @@ router.patch('/:id', (req, res, next) =>{
 
 //delete
 router.delete('/:id', (req, res, next) =>{
-  knex('projects')
+  knex('portfolio_projects')
      .where('id', req.params.id)
      .returning(['id', 'title', 'description'])
      .del()
