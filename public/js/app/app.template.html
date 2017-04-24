@@ -1,14 +1,40 @@
-<header class="navbar navbar-inverse navbar-fixed-top header">
-  <div class="container">
-    <div class="navbar-header">
-      <a ui-sref='home' class="navbar-brand">Brad Efting</a>
-    </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="headline-image"></div>
   </div>
-</header>
+</div>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+  <div class="navbar-header">
+    <!-- collapsable navbar -->
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <!-- <a class="navbar-brand" href="#home" id="home">Brad Efting</a> -->
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse-main">
+    <ul class="nav navbar-nav">
+      <li class="" id="about"><a href="#about">About Me</a></li>
+      <li class=""><a href="#projects">Projects</a></li>
+      <li class="" id="experience"><a href="#experience">Experience</a></li>
+      <li class="" id="education"><a href="#education">Education</a></li>
+      <li class="" id="skills"><a href="#skills">Skills</a></li>
+      <li class="" id="contact"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
 
 <ui-view></ui-view>
+<br><br>
 
-<footer class="navbar navbar-inverse ">
+<footer class="navbar navbar-inverse">
   <div class="container">
     <a ui-sref='home' class="navbar-brand">Brad Efting</a>
     <p class="navbar-text navbar-right">Created by Brad Efting. 2017</p>

@@ -1,3 +1,19 @@
 /** {
   background-color: blue;
 }*/
+
+.headline-image {
+  background: url(./images/Mac_Headline3.jpg) no-repeat center center fixed;
+  display: table;
+  height: 38em;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pin {
+  border-bottom: 1px solid black
+}
