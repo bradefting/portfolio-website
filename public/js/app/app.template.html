@@ -4,7 +4,7 @@
   </div>
 </div>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
   <div class="navbar-header">
     <!-- collapsable navbar -->
@@ -20,7 +20,7 @@
   <div class="collapse navbar-collapse" id="navbar-collapse-main">
     <ul class="nav navbar-nav">
       <li class="" id="about"><a href="#about">About Me</a></li>
-      <li class=""><a href="#projects">Projects</a></li>
+      <li class=""><a href="#projects">Featured Projects</a></li>
       <li class="" id="experience"><a href="#experience">Experience</a></li>
       <li class="" id="education"><a href="#education">Education</a></li>
       <li class="" id="skills"><a href="#skills">Skills</a></li>
@@ -29,6 +29,44 @@
   </div>
   </div>
 </nav>
+
+<main>
+  <div class="container-fluid">
+    <div class="row about">
+      <div class="container">
+        <section>
+          <h2>About</h2>
+          <p>Hi, my name is Brad Efting. I am a software developer based in Denver, CO.</p>
+        </section>
+      </div>
+    </div>
+
+    <div class="row projects">
+      <div class="container">
+        <section>
+          <h2>Featured Projects</h2>
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img class="project-thumbnail" src="./images/TheraBot.png" alt="TheraBot Screenshot">
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <img class="project-thumbnail" src="./images/NightLite.png" alt="NightLite Screenshot">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img class="project-thumbnail" src="./images/GooseHire.png" alt="GooseHire Screenshot">
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <img class="project-thumbnail" src="./images/Brewzinga.png" alt="Brewzinga Screenshot">
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </div>
+</main>
 
 
 <ui-view></ui-view>
