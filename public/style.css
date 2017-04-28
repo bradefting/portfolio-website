@@ -38,9 +38,20 @@
   margin: 2px;
 }
 
-.profile-img {
+/*.profile-img {
   display: block;
   width: auto;
   height: 15em;
   margin: auto;
+}*/
+
+.profile-img{
+ width: 200px;
+ height: 200px;
+ background-image: url('./images/Brad_Efting.jpg');
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
 }
