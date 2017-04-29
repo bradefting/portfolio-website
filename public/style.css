@@ -1,5 +1,5 @@
-/** {
-  background-color: blue;
+/*body {
+  padding-top: 40px;
 }*/
 
 .headline-image {
@@ -36,22 +36,22 @@
   height: 25em;
   border: 1px black solid;
   margin: 2px;
+
 }
 
-/*.profile-img {
-  display: block;
-  width: auto;
-  height: 15em;
-  margin: auto;
-}*/
+.logo {
+  height: 35px;
+  width: auto
+}
 
 .profile-img{
- width: 200px;
- height: 200px;
- background-image: url('./images/Brad_Efting.jpg');
- background-size: cover;
- display: block;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-image: url('./images/Brad_Efting.jpg');
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
 }

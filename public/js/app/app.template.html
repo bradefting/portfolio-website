@@ -1,10 +1,4 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="headline-image"></div>
-  </div>
-</div>
-
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top header" role="navigation">
   <div class="container">
   <div class="navbar-header">
     <!-- collapsable navbar -->
@@ -17,7 +11,7 @@
     <!-- <a class="navbar-brand" href="#home" id="home">Brad Efting</a> -->
   </div>
 
-  <div class="collapse navbar-collapse" id="navbar-collapse-main">
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
       <li class="" id="about"><a href="#about">About Me</a></li>
       <li class=""><a href="#projects">Featured Projects</a></li>
@@ -31,14 +25,25 @@
 </nav>
 
 <main>
+
+  <section class="container-fluid">
+    <div class="row">
+      <div class="headline-image"></div>
+    </div>
+  </section>
+
   <!-- <div class="container-fluid"> -->
-  <section class="row">
-    <div class="about">
+  <section class="row about">
+    <div class="container">
       <h2 class="col-xs-12 text-center">About</h2>
       <div class="col-sm-12 col-md-8 about-me-box pinstripe">
         <p>Hi, my name is Brad Efting and I am a software developer based in Denver, CO. I am attracted to software development because I love solving problems with code. What's even more fun to me is solving a problem using a new technology. I am currently building applications using AngularJS and jQuery on the front end and NodeJS, Express, and PostgreSQL or MongoDB on the back end. My background before software development was in marketing and entreprenuership. My dream job would allow me to use all of my previous expereince as a software developer.</p>
+        <div class="social-logos">
+          <a href="https://github.com/bradefting" target="_blank"><img class="logo" src="./images/github.png" alt="Github logo with link"></a>
+          <a href="https://www.linkedin.com/in/brad-efting" target="_blank"><img class="logo" src="./images/linkedin.png" alt="LinkedIn logo with link"></a>
+        </div>
       </div>
-      <div class="col-sm-12 col-md-4 pinstripe">
+      <div class="col-sm-12 col-md-4">
         <div class="profile-img" alt="">
       </div>
     </div>
