@@ -3,7 +3,7 @@
 }*/
 
 .headline-image {
-  background: url(./images/Mac_Headline5.jpg) no-repeat center center fixed;
+  /*background: url(./images/labtop3.png) no-repeat center center fixed;*/
   display: table;
   height: 36em;
   position: relative;
@@ -18,25 +18,28 @@
   border: 1px solid black
 }
 
-.about, .skills, .education {
+/*.about, .skills, .education, .experience, .contact {
   background-color: #f5f5f5;
   height: 23em;
+}*/
+
+body {
+  background-color: #f5f5f5;
 }
 
-.experience {
-  height: 20em;
-}
+/*.about, .skills {
+  height: 30em;
+}*/
 
-.projects {
+/*.projects {
   height: 55em;
-}
+}*/
 
 .project-thumbnail {
   width: 35em;
   height: 25em;
   border: 1px black solid;
   margin: 2px;
-
 }
 
 .logo {
@@ -54,4 +57,23 @@
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
+}
+
+.school {
+  display: block;
+}
+
+
+/***********    SKILLS  *******/
+.skills-box {
+  border: 1px solid black;
+  background-color: #337ab7;
+  color: #bfbebe;
+  height: 15em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
