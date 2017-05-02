@@ -33,6 +33,19 @@ main {
   margin: 7em 0;
 }
 
+.navbar-brand {
+  font-size:20px;
+  color:#000 !important;
+  font-weight:bold;
+}
+
+.navbar-default {
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e5e5;
+  color: #000 !important;
+  background-color: #fff;
+}
+
 /*  for about section */
 .bottom-margin {
   margin-bottom: 7em;
