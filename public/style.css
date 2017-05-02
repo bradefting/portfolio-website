@@ -1,6 +1,8 @@
-/*body {
-  padding-top: 40px;
-}*/
+
+body {
+  background-color: #f5f5f5;
+  /*padding-top: 40px;*/
+}
 
 .headline-image {
   /*background: url(./images/labtop3.png) no-repeat center center fixed;*/
@@ -18,14 +20,14 @@
   border: 1px solid black
 }
 
+.top-bottom-margins {
+  margin: 7em 0;
+}
+
 /*.about, .skills, .education, .experience, .contact {
   background-color: #f5f5f5;
   height: 23em;
 }*/
-
-body {
-  background-color: #f5f5f5;
-}
 
 /*.about, .skills {
   height: 30em;
@@ -36,8 +38,8 @@ body {
 }*/
 
 .project-thumbnail {
-  width: 35em;
-  height: 25em;
+  /*width: 35em;
+  height: 25em;*/
   border: 1px black solid;
   margin: 2px;
 }
@@ -57,10 +59,6 @@ body {
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
-}
-
-.school {
-  display: block;
 }
 
 
