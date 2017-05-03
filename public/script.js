@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
 
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -13,10 +12,10 @@ $( document ).ready(function() {
         }
       }
     });
-
 });
 
 window.sr = ScrollReveal();
+
 sr.reveal('.projects-head', {
   duration: 2000,
   origin:'bottom',

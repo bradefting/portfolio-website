@@ -1,7 +1,7 @@
 
 body {
   background-color: #f5f5f5;
-  margin-top: 100px;
+  margin-top: 110px;
   font-size: 16px;
 }
 
@@ -29,15 +29,20 @@ main {
   font-size: 36px;
   font-weight: 300;
   color: #343333;
+  margin-bottom: 1em;
 }
 
 .top-bottom-margins {
   margin: 3em 0;
 }
 
+.about {
+  margin-bottom: 5em;
+}
+
 .navbar-brand {
   font-size:20px;
-  color:#000 !important;
+  color: #000 !important;
   font-weight: bold;
 }
 
@@ -51,6 +56,11 @@ main {
 .macbook-image {
   width:90%;
   margin-left:20px;
+  padding-top: 30px;
+}
+
+#contact {
+  background: #f1f0ef;
 }
 
 /*.headline-image {
