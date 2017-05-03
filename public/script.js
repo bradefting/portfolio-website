@@ -26,6 +26,23 @@ sr.reveal('.projects-left', {
   distance:'200px',
   delay: 1000,
 });
+sr.reveal('.btn-default', {
+  duration: 2000,
+  delay: 3000,
+  origin:'bottom'
+});
+// sr.reveal('.projects-left', {
+//   duration: 2000,
+//   origin:'left',
+//   distance:'200px',
+//   delay: 1000,
+// });
+// sr.reveal('.projects-right', {
+//   duration: 2000,
+//   origin:'right',
+//   distance:'200px',
+//   delay: 1000,
+// });
 sr.reveal('.projects-right', {
   duration: 2000,
   origin:'right',
