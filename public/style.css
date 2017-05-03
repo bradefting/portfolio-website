@@ -1,7 +1,8 @@
 
 body {
   background-color: #f5f5f5;
-  padding-top: 60px;
+  margin-top: 100px;
+  font-size: 16px;
 }
 
 main {
@@ -11,7 +12,8 @@ main {
 
 .blue-text {
   /*color: #578ccb;*/
-  color: #337ab7
+  /*color: #337ab7*/
+  color: #343333;
 }
 
 /*   paragraph text   */
@@ -30,13 +32,13 @@ main {
 }
 
 .top-bottom-margins {
-  margin: 7em 0;
+  margin: 3em 0;
 }
 
 .navbar-brand {
   font-size:20px;
   color:#000 !important;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .navbar-default {
@@ -46,13 +48,13 @@ main {
   background-color: #fff;
 }
 
-/*  for about section */
-.bottom-margin {
-  margin-bottom: 7em;
+.macbook-image {
+  width:90%;
+  margin-left:20px;
 }
 
-.headline-image {
-  /*background: url(./images/labtop3.png) no-repeat center center fixed;*/
+/*.headline-image {
+  background: url(./images/labtop3.png) no-repeat center center fixed;
   display: table;
   height: 36em;
   position: relative;
@@ -61,20 +63,8 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
-.profile-img{
-  margin: auto;
-  width: 200px;
-  height: 200px;
-  background-image: url('./images/Brad_Efting.jpg');
-  background-size: cover;
-  display: block;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.6)
-}
 
 .project-thumbnail {
   /*width: 35em;
@@ -108,4 +98,22 @@ ul {
 /*****drop shadow *****/
 .box-shadow {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4)
+}
+
+.profile-img{
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  background-image: url('./images/Brad_Efting.jpg');
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.6)
+}
+
+footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 20px;
 }
