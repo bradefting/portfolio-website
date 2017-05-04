@@ -22,7 +22,12 @@
           parent: 'app',
           component: 'projectList'
         })
-
+        .state({
+          name: 'project',
+          url: '/:id/project',
+          parent: 'app',
+          component: 'projectItem'
+        })
     }
 
 }());

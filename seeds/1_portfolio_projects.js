@@ -38,7 +38,7 @@ exports.seed = function(knex, Promise) {
         }),
         knex('portfolio_projects').insert({
           id: 4,
-          title: 'Brewzinga',
+          title: 'Brewzinga!',
           description: "Web application that recommends beers based on an event or the user's local weather using Weather Underground API and BreweryDB API. Single- page app also displays local breweries using AJAX and jQuery.",
           technologies: 'Materialize, jQuery, Surge, BreweryDB API, Weather Underground API',
           image: 'https://github.com/bradefting/portfolio-website/blob/master/public/images/Brewzinga.png?raw=true',
