@@ -18,7 +18,6 @@
         $http.get('/projects')
           .then((response) => {
             vm.projects = response.data;
-            console.log(response.data);
           });
       }
     }
