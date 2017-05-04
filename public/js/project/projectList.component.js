@@ -7,10 +7,20 @@
       templateUrl: '/js/project/projectList.template.html'
     });
 
-    // itemListController.$inject = ['$http', 'itemService'];
+    projectListController.$inject = ['$http'];
 
-    function projectListController(){
+    function projectListController($http){
       const vm = this;
+
+      vm.$onInit = $onInit;
+
+      function $onInit(){
+        $http.get('/projects')
+          .then((response) => {
+            vm.projects = response.data;
+            console.log(response.data);
+          });
+      }
     }
 
 }());
