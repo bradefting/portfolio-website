@@ -6,6 +6,7 @@ exports.up = function(knex, Promise) {
     table.string('title').notNullable();
     table.string('description').notNullable();
     table.string('technologies').notNullable();
+    table.string('api').notNullable();
     table.string('image').notNullable();
     table.string('deployed_site').notNullable();
     table.string('github_link').notNullable();
