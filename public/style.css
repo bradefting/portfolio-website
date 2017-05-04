@@ -89,7 +89,8 @@ main {
   background-color: #337ab7;
   /*color: #d9d9d9;*/
   color: #e2e2e2;
-  height: 15em;
+  width: 90%;
+  height: auto;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4)
 }
 
