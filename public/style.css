@@ -41,13 +41,13 @@ main {
 }
 
 .navbar-brand {
-  font-size:20px;
+  font-size: 20px;
   color: #000 !important;
   font-weight: bold;
 }
 
 .navbar-default {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   border-bottom: 1px solid #e5e5e5;
   color: #000 !important;
   background-color: #fff;

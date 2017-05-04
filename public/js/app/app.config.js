@@ -20,8 +20,9 @@
           name: 'home',
           url: '/',
           parent: 'app',
-          component: 'home'
-        });
+          component: 'projectList'
+        })
+
     }
 
 }());

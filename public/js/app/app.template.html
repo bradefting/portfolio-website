@@ -8,10 +8,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brad Efting</a>
+      <a ui-sref='home' class="navbar-brand" href="#">Brad Efting</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="navbar">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="#about">About Me</a></li>
         <li><a href="#projects">Featured Projects</a></li>
@@ -20,207 +20,97 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="./images/downloads/Brad_Efting_Resume.pdf"   class="btn btn-primary btn-xs navbar-btn" download>Download Resume</a>
     </div>
   </div>
 </nav>
 
-<main>
-
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <div class="macbook">
-            <img src="./images/labtop3.png" class="macbook-image img-responsive" alt="MacBook">
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6">
-          <div class="about">
-            <h1>Hi, I'm Brad...</h1>
-            <p class="par-text">and I am a software developer based in Denver, CO. I love software development because I enjoy solving problems with code. What's even more fun to me is solving a problem using a new technology. I am currently building applications using AngularJS and jQuery on the front end and NodeJS, Express, and PostgreSQL or MongoDB on the back end. My background before software development was in marketing and entreprenuership. My dream job would allow me to use all of my previous expereince as a software developer.</p>
-            <br>
-            <div class="social-logos">
-              <a href="https://github.com/bradefting" target="_blank"><img class="logo" src="./images/github.png" alt="Github logo with link"></a>
-              <a href="https://www.linkedin.com/in/brad-efting" target="_blank"><img class="logo" src="./images/linkedin.png" alt="LinkedIn logo with link"></a>
-              <a href="#">bradefting@gmail.com</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-      <div class="row top-bottom-margins">
-        <h2 class="text-center section">
-          <span class="glyphicon glyphicon-console" aria-hidden="true"></span>
-          Featured Projects</h2>
-
-        <div class="projects">
-          <div class="col-sm-12 col-md-6">
-            <img class="project-thumbnail center-block img-responsive" src="./images/TheraBot.png" alt="TheraBot Screenshot">
-            <img class="project-thumbnail center-block img-responsive" src="./images/NightLite.png" alt="NightLite Screenshot">
-          </div>
-
-          <div class="col-sm-12 col-md-6">
-            <img class="project-thumbnail center-block img-responsive" src="./images/GooseHire.png" alt="GooseHire Screenshot">
-            <img class="project-thumbnail center-block img-responsive" src="./images/Brewzinga.png" alt="Brewzinga Screenshot">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills">
-    <div class="container">
-      <div class="row top-bottom-margins">
-        <h2 class="text-center section">
-          <span class="glyphicon glyphicon-signal" aria-hidden="true"></span>
-          Skills</h2>
-
-          <div class="skills-box">
-            <div class="col-xs-12 col-sm-4">
-              <h3 class="text-center">Front End</h3>
-              <ul class="text-center par-text">
-                <li>Javascript</li>
-                <li>HTML5 + CSS3</li>
-                <li>jQuery + AJAX</li>
-                <li>Bootstrap + Materialize</li>
-                <li>AngularJS</li>
-              </ul>
-            </div>
-            <div class="col-xs-12 col-sm-4">
-              <h3 class="text-center">Back End</h3>
-              <ul class="text-center par-text">
-                <li>NodeJS + Express</li>
-                <li>PostgreSQL + Knex.js</li>
-                <li>MongoDB + Mongoose</li>
-                <li>RESTful API</li>
-                <li>OAuth</li>
-              </ul>
-            </div>
-            <div class="col-xs-12 col-sm-4">
-              <h3 class="text-center">Other</h3>
-              <ul class="text-center par-text">
-                <li>Git + Github</li>
-                <li>Mocha + Chai</li>
-                <li>Microsoft Bot Framework</li>
-                <li>Azure, Heroku, Surge</li>
-                <li>Google Analytics + Adwords</li>
-              </ul>
-            </div>
-          </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="experience">
-    <div class="container">
-      <div class="row top-bottom-margins">
-        <h2 class="text-center section">
-          <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
-          Experience</h2>
-        <br>
-
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1 text-center">
-          <img src="./images/Paladin-Product.png" class="img-responsive box-shadow" alt="Screenshot of Paladin Press">
-          <h3 class="blue-text">Paladin Press</h3>
-          <p class="par-text">While at Paladin Press, I helped revamp the e-commerce website that contains over 500 products. I also helped integrate the downloadable products to the website.</p>
-          <a href="https://www.paladin-press.com/product/Stop-the-Bully" target="_blank"><button class="btn btn-default">Visit Site</button></a>
-        </div>
-
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1 text-center">
-          <img src="./images/Bungalows-Lydia.png" class="img-responsive box-shadow" alt="Screen shot of Bungalows Lydia">
-          <h3 class="blue-text">Bungalows Lydia</h3>
-          <p class="par-text">I designed and created a website for a small resort in Mexico using Wix. I built this website using Wix so the owners of the resort can maintain the site easier.</p>
-          <a href="http://www.bungalowslydia.com/" target="_blank"><button class="btn btn-default">Visit Site</button></a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="education">
-    <div class="container">
-      <div class="row top-bottom-margins">
-
-        <h2 class="text-center section">
-          <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          Education
-        </h2>
-
-        <div class="education">
-          <div class="col-xs-12 col-sm-6">
-            <img src="./images/Galvanize1.png" class="center-block img-responsive" alt=""></img>
-            <h4 class="text-center">Web Immersive Program</h4>
-          </div>
-
-          <div class="col-xs-12 col-sm-6">
-            <img src="./images/CSU-Global1.png" class="center-block img-responsive" alt=""></img>
-            <h4 class="text-center">B.S. Business Management</h4>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr>
-
-  <section id="contact">
-    <div class="container">
-      <div class="row top-bottom-margins">
-        <h2 class="text-center section">
-          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-          Contact</h2>
-
-          <div class="row">
-            <div class="col-xs-12 col-md-8">
-              <form>
-                <div class="form-group">
-                  <label>Name: </label>
-                  <input class="form-control" type="text" name="" value="" placeholder="Enter Name">
-                </div>
-                <div class="form-group">
-                  <label>Email: </label>
-                  <input class="form-control" type="text" name="" value="" placeholder="Enter Email">
-                </div>
-                <div class="form-group">
-                  <label>Message: </label>
-                  <textarea class="form-control" name="" value="" placeholder="Enter Message"></textarea>
-                </div>
-                <button class="btn btn-default center-block">Submit</button>
-              </form>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <div class="profile-img" alt="Profile picture of Brad"></div>
-            </div>
-          </div>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-
 <ui-view></ui-view>
-<br><br>
 
 <footer class="navbar-default">
     <!-- <a ui-sref='home' class="navbar-brand">Brad Efting</a> -->
-    <p class="text-center">&copy; Brad Efting 2017</p>
+    <p class="text-center">&copy; Brad Efting 2017.</p>
 </footer>
 
 <!-- <script>
-  window.sr = ScrollReveal();
-  sr.reveal('.navbar', {
-    duration: 2000,
-    origin: 'bottom'
+  $(function() {
+    // Smooth Scrolling
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
   });
+  </script>
+  <script>
+    window.sr = ScrollReveal();
 
-</script> -->
+    sr.reveal('.projects-head', {
+      duration: 2000,
+      origin:'bottom',
+    });
+    sr.reveal('.projects-left', {
+      duration: 2000,
+      origin:'left',
+      distance:'200px',
+      delay: 1000,
+    });
+    sr.reveal('.btn-default', {
+      duration: 2000,
+      delay: 3000,
+      origin:'bottom'
+    });
+    sr.reveal('.projects-right', {
+      duration: 2000,
+      origin:'right',
+      distance:'200px',
+      delay: 1000,
+    });
+    sr.reveal('.skills-head', {
+      duration: 2000,
+      origin:'bottom'
+    });
+    sr.reveal('.skills-box', {
+      duration: 3000,
+      origin:'bottom',
+      viewFactor: 0.25
+    });
+    sr.reveal('.ex-center', {
+      duration: 2000,
+      origin:'bottom',
+      viewFactor: 0.2
+    });
+    sr.reveal('.ex-left', {
+      duration: 3000,
+      origin:'left',
+      distance:'300px',
+      viewFactor: 0.25
+    });
+    sr.reveal('.ex-right', {
+      duration: 3000,
+      origin:'right',
+      distance:'300px',
+      viewFactor: 0.25
+    });
+    sr.reveal('.education-head', {
+      duration: 2000,
+      origin:'bottom',
+    });
+    sr.reveal('.education', {
+      duration: 2000,
+      origin:'bottom',
+      delay: 1000,
+      viewFactor: 0.1
+    });
+    sr.reveal('.profile-img', {
+      duration: 2000,
+      origin:'bottom',
+      delay: 1000,
+    });
+  </script> -->
