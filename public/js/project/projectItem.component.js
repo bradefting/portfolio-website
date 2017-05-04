@@ -13,7 +13,7 @@
      const vm = this;
 
      vm.$onInit = $onInit;
-    //  vm.projectItem = projectItem;
+    //  vm.project = project;
 
      function $onInit() {
        $http.get(`/projects/${$stateParams.id}`)

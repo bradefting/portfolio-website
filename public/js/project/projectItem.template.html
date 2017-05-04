@@ -1,1 +1,9 @@
-<h1>ProjectItem template</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6 col-md-offset-1">
+      <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.project.image }} " alt="Image of project">
+    </div>
+    <h3 class="text-center dark-text"> {{ $ctrl.project.title }}</h3>
+    <p class="par-text">{{ $ctrl.project.description }}</p>
+  </div>
+</div>
