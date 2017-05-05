@@ -4,7 +4,8 @@ exports.up = function(knex, Promise) {
   return knex.schema.createTable('portfolio_projects', function(table){
     table.increments();
     table.string('title').notNullable();
-    table.string('description').notNullable();
+    table.string('short_description').notNullable();
+    table.string('full_description').notNullable();
     table.string('technologies').notNullable();
     table.string('api').notNullable();
     table.string('image').notNullable();
