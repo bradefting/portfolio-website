@@ -8,7 +8,8 @@ exports.up = function(knex, Promise) {
     table.string('full_description').notNullable();
     table.string('technologies').notNullable();
     table.string('api').notNullable();
-    table.string('image').notNullable();
+    table.string('main_image').notNullable();
+    table.string('project_images').notNullable();
     table.string('deployed_site').notNullable();
     table.string('github_link').notNullable();
     table.string('video_link').notNullable();
