@@ -20,7 +20,7 @@
           name: 'home',
           url: '/',
           parent: 'app',
-          component: 'projectList'
+          component: 'home'
         })
         .state({
           name: 'project',

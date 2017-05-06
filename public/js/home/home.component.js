@@ -2,14 +2,14 @@
   'use strict';
 
   angular.module('app')
-    .component('projectList', {
-      controller: projectListController,
-      templateUrl: '/js/project/projectList.template.html'
+    .component('home', {
+      controller: homeController,
+      templateUrl: '/js/home/home.template.html'
     });
 
-    projectListController.$inject = ['$http'];
+    homeController.$inject = ['$http'];
 
-    function projectListController($http){
+    function homeController($http){
       const vm = this;
 
       vm.$onInit = $onInit;
