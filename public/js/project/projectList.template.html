@@ -41,7 +41,7 @@
         <div class="projects">
           <div class="col-sm-12 col-md-6" ng-repeat="project in $ctrl.projects">
             <!-- <div class="projects-left"> -->
-              <img class="project-thumbnail center-block img-responsive" ng-src=" {{ project.image }} " alt="Image of project">
+              <img class="project-thumbnail center-block img-responsive" ng-src=" {{ project.main_image }} " alt="Image of project">
               <h3 class="text-center dark-text"> {{ project.title }}</h3>
               <p class="par-text">{{ project.full_description }}</p>
               <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="project({id: project.id})" name="project">See more</button>

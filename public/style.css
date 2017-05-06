@@ -54,35 +54,34 @@ main {
   background-color: #fff;
 }
 
+/**** hero image****/
 .macbook-image {
   width:90%;
   margin-left:20px;
   padding-top: 30px;
 }
 
+
+/**** contact form ****/
 #contact {
   background: #f1f0ef;
 }
 
-/*.headline-image {
-  background: url(./images/labtop3.png) no-repeat center center fixed;
-  display: table;
-  height: 36em;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
 
-
+/**** project ****/
 .project-thumbnail {
   /*width: 35em;
   height: 25em;*/
   border: 1px black solid;
   margin: 2px;
 }
+
+
+.project-width {
+  width: 80%;
+  margin: auto;
+}
+
 
 /*****    SKILLS  *****/
 .skills-box {
@@ -112,6 +111,7 @@ ul {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4)
 }
 
+/**** profile picture****/
 .profile-img{
   margin: 30px auto;
   width: 200px;

@@ -9,7 +9,14 @@ exports.up = function(knex, Promise) {
     table.string('technologies').notNullable();
     table.string('api').notNullable();
     table.string('main_image').notNullable();
-    table.string('project_images').notNullable();
+    table.string('image1').notNullable();
+    table.string('image2').notNullable();
+    table.string('image3').notNullable();
+    table.string('image4').notNullable();
+    table.string('step1', 400).notNullable();
+    table.string('step2', 400).notNullable();
+    table.string('step3', 400).notNullable();
+    table.string('step4', 400).notNullable();
     table.string('deployed_site').notNullable();
     table.string('github_link').notNullable();
     table.string('video_link').notNullable();
