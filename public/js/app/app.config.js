@@ -30,7 +30,7 @@
         })
         .state({
           name: 'experience',
-          url: '/:id/project',
+          url: '/:id/experience',
           parent: 'app',
           component: 'experienceItem'
         })
