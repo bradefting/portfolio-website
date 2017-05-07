@@ -8,6 +8,8 @@ const projects = require('./routes/projects');
 const experience = require('./routes/experience');
 const port = process.env.PORT || 3000;
 
+require(‘dotenv’).config();
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
