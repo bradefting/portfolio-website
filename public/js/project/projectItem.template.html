@@ -85,7 +85,16 @@
 <div class="container">
   <div class="row top-bottom-margins">
     <h1 class="section text-center">Technologies & APIs</h1>
-    <p>{{ $ctrl.project.technologies }}</p>
-    <p>{{ $ctrl.project.api }}</p>
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-6">
+        <h3 class="par-text project-width">Technologies:</h3>
+        <p class="par-text project-width"> {{ $ctrl.project.technologies }}</p>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h3 class="par-text project-width">API:</h3>
+        <p class="par-text project-width"> {{ $ctrl.project.api }}</p>
+      </div>
+
+    </div>
   </div>
 </div>

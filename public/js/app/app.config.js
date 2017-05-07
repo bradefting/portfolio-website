@@ -28,6 +28,12 @@
           parent: 'app',
           component: 'projectItem'
         })
+        .state({
+          name: 'experience',
+          url: '/:id/project',
+          parent: 'app',
+          component: 'experienceItem'
+        })
     }
 
 }());
