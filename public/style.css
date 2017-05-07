@@ -36,6 +36,10 @@ main {
   margin: 3em 0;
 }
 
+.bottom-margin {
+  margin-bottom: 2em;
+}
+
 .about {
   margin-bottom: 5em;
   width: 95%;
@@ -125,11 +129,12 @@ ul {
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.6)
 }
 
-/*#arrow-up {
+.back-button {
   position: fixed;
-  top: 80%;
-  right: 1%;
-}*/
+  top: 6%;
+  left: 1%;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5)
+}
 
 footer {
   border-top: 1px solid #e5e5e5;
