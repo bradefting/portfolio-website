@@ -14,12 +14,18 @@
 
       vm.$onInit = $onInit;
       vm.createMessage = createMessage;
-      
+
 
       function $onInit(){
+
         $http.get('/projects')
           .then((response) => {
             vm.projects = response.data;
+          });
+
+        $http.get('/experience')
+          .then((result) => {
+            vm.experiences = result.data;
           });
       }
 

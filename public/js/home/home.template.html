@@ -105,18 +105,11 @@
           <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
           &nbsp;Experience</h2>
 
-        <div class="col-xs-12 col-sm-6 text-center ex-left">
-          <img src="./images/paladin/Paladin-Product.png" class="img-responsive box-shadow" alt="Screenshot of Paladin Press">
-          <h3 class="dark-text">Paladin Press</h3>
-          <p class="par-text">While working at Paladin Press, I led the marketing team in revamping the e-commerce website that contains over 500 products. I also helped integrate the downloadable products to the website.</p>
-          <a href="https://www.paladin-press.com/product/Stop-the-Bully" target="_blank"><button class="btn btn-primary btn-sm">See More</button></a>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 text-center ex-right">
-          <img src="./images/bungalows-lydia/Bungalows-Lydia.png" class="img-responsive box-shadow" alt="Screen shot of Bungalows Lydia">
-          <h3 class="dark-text">Bungalows Lydia</h3>
-          <p class="par-text">I designed and created a website for a small resort in Mexico using Wix. I built this website using Wix so the owners of the resort can maintain the site with greater ease.</p>
-          <a href="http://www.bungalowslydia.com/" target="_blank"><button class="btn btn-primary btn-sm">See More</button></a>
+        <div class="col-xs-12 col-sm-6 text-center" ng-repeat="item in $ctrl.experiences">
+          <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ item.main_image }} " alt="Image of project">
+          <h3 class="text-center dark-text"> {{ item.title }}</h3>
+          <p class="par-text">{{ item.short_description }}</p>
+          <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="experience({id: item.id})" name="project">See more</button>
         </div>
 
       </div>
