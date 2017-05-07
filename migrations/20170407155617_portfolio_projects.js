@@ -1,5 +1,6 @@
 "use strict";
 
+// to invoke this knex migrate:latest;
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('portfolio_projects', function(table){
     table.increments();
@@ -24,6 +25,7 @@ exports.up = function(knex, Promise) {
   });
 };
 
+// to invoke this knex migrate:rollback;
 exports.down = function(knex, Promise) {
   return knex.schema.dropTable('portfolio_projects');
 };
