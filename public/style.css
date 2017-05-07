@@ -117,9 +117,9 @@ ul {
 
 /**** profile picture****/
 .profile-img{
-  margin: 30px auto;
-  width: 200px;
-  height: 200px;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
   background-image: url('./images/Brad_Efting.jpg');
   background-size: cover;
   display: block;
@@ -133,7 +133,7 @@ ul {
   position: fixed;
   top: 6%;
   left: 1%;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5)
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.4)
 }
 
 footer {

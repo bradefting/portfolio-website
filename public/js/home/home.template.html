@@ -148,34 +148,20 @@
           &nbsp;Contact</h2>
 
           <div class="row">
-            <div class="col-xs-12 col-sm-7 col-sm-offset-1">
-              <form novalidate ng-submit="$ctrl.createMessage()">
-
-                <div class="form-group">
-                  <label for="contactName">Name: </label>
-                  <input class="form-control" type="text" id="contactName" name="name" placeholder="Enter Name" ng-model="$ctrl.contact.name" required>
-                </div>
-
-                <div class="form-group">
-                  <label for="contactEmail">Email: </label>
-                  <input class="form-control" type="email" id="contactEmail" name="email" placeholder="Enter Email" ng-model="$ctrl.contact.email" required>
-                </div>
-
-                <div class="form-group">
-                  <label for="contactSubject">Subject: </label>
-                  <input class="form-control" type="text" id="contactSubject" name="subject" placeholder="Enter Subject" ng-model="$ctrl.contact.subject" required>
-                </div>
-
-                <div class="form-group">
-                  <label for="contactMessage">Message: </label>
-                  <textarea class="form-control" name="message" id="contactMessage" placeholder="Enter Message" rows="3" ng-model="$ctrl.contact.message" required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-default center-block">Submit</button>
-                <!-- <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Send Mail</a> -->
-              </form>
+            <div class="col-xs-12 col-sm-3 col-sm-offset-3">
+              <div>
+                <a href="https://github.com/bradefting" target="_blank"><img class="logo" src="./images/github.png" alt="Github logo with link">Github</a>
+              </div>
+              <br>
+              <div>
+                <a href="https://www.linkedin.com/in/brad-efting" target="_blank"><img class="logo" src="./images/linkedin.png" alt="LinkedIn logo with link">LinkedIn</a>
+              </div>
+              <br>
+              <div>
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true">Email</span>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-6">
               <div class="profile-img" alt="Profile picture of Brad">
               </div>
             </div>

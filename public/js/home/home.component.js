@@ -13,8 +13,7 @@
       const vm = this;
 
       vm.$onInit = $onInit;
-      vm.createMessage = createMessage;
-
+      // vm.createMessage = createMessage;
 
       function $onInit(){
 
@@ -27,10 +26,6 @@
           .then((result) => {
             vm.experiences = result.data;
           });
-      }
-
-      function createMessage(){
-        console.log(vm.contact)
       }
 
     }

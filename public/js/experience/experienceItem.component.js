@@ -17,18 +17,9 @@
      function $onInit() {
        $http.get(`/experience/${$stateParams.id}`)
          .then((response) => {
-           console.log(response.data);
            vm.item = response.data;
          });
      }
-
-     //if adding a service
-    // function $onInit() {
-    //   itemService.getItem(`${$stateParams.id}`)
-    //    .then((item) => {
-    //      vm.project = item;
-    //    });
-    // }
 
    }
 
