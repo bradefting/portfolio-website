@@ -125,6 +125,12 @@ ul {
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.6)
 }
 
+/*#arrow-up {
+  position: fixed;
+  top: 80%;
+  right: 1%;
+}*/
+
 footer {
   border-top: 1px solid #e5e5e5;
   padding: 20px;

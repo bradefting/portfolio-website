@@ -156,24 +156,29 @@
 
           <div class="row">
             <div class="col-xs-12 col-sm-7 col-sm-offset-1">
-              <form method="post" action>
+              <form novalidate ng-submit="$ctrl.createMessage()">
+
                 <div class="form-group">
-                  <label>Name: </label>
-                  <input class="form-control" type="text" name="name" value="" placeholder="Enter Name">
+                  <label for="contactName">Name: </label>
+                  <input class="form-control" type="text" id="contactName" name="name" placeholder="Enter Name" ng-model="$ctrl.contact.name" required>
                 </div>
+
                 <div class="form-group">
-                  <label>Subject: </label>
-                  <input class="form-control" type="text" name="subject" value="" placeholder="Enter Subject">
+                  <label for="contactEmail">Email: </label>
+                  <input class="form-control" type="text" id="contactEmail" name="email" placeholder="Enter Email" ng-model="$ctrl.contact.email" required>
                 </div>
+
                 <div class="form-group">
-                  <label>Email: </label>
-                  <input class="form-control" type="text" name="email" value="" placeholder="Enter Email">
+                  <label for="contactSubject">Subject: </label>
+                  <input class="form-control" type="text" id="contactSubject" name="subject" placeholder="Enter Subject" ng-model="$ctrl.contact.subject" required>
                 </div>
+
                 <div class="form-group">
-                  <label>Message: </label>
-                  <textarea class="form-control" name="message" value="" placeholder="Enter Message"></textarea>
+                  <label for="contactMessage">Message: </label>
+                  <textarea class="form-control" name="message" id="contactMessage" placeholder="Enter Message" rows="3" ng-model="$ctrl.contact.message" required></textarea>
                 </div>
-                <button class="btn btn-default center-block">Submit</button>
+
+                <button type="submit" class="btn btn-default center-block">Submit</button>
               </form>
             </div>
             <div class="col-xs-12 col-sm-4">

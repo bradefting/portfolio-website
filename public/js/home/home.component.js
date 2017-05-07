@@ -13,6 +13,8 @@
       const vm = this;
 
       vm.$onInit = $onInit;
+      vm.createMessage = createMessage;
+      
 
       function $onInit(){
         $http.get('/projects')
@@ -20,6 +22,11 @@
             vm.projects = response.data;
           });
       }
+
+      function createMessage(){
+        console.log(vm.contact)
+      }
+
     }
 
 }());
