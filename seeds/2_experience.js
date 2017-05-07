@@ -15,7 +15,7 @@ exports.seed = function(knex, Promise) {
           old_image2: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/old-ulti2.jpg?raw=true",
           new_image1: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/new-download-video.jpg?raw=true",
           new_image2: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/paladin-mobile.jpg?raw=true",
-          text1: "",
+          text1: "The revamp kept some similarities but moved the newsletter signup to the header to increase signup, added the blog to the homepage, and made the cart easier",
           text2: "",
           text3: "",
           text4: "",

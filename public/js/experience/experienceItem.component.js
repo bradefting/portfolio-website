@@ -13,15 +13,14 @@
      const vm = this;
 
      vm.$onInit = $onInit;
-    //  vm.project = project;
 
-    //  function $onInit() {
-    //    $http.get(`/projects/${$stateParams.id}`)
-    //      .then((response) => {
-    //        console.log(response.data);
-    //        vm.project = response.data;
-    //      });
-    //  }
+     function $onInit() {
+       $http.get(`/experience/${$stateParams.id}`)
+         .then((response) => {
+           console.log(response.data);
+           vm.item = response.data;
+         });
+     }
 
      //if adding a service
     // function $onInit() {
