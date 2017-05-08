@@ -24,8 +24,8 @@ exports.seed = function(knex, Promise) {
         knex('experience').insert({
           id: 2,
           title: "Bungalows Lydia",
-          short_description: "I designed and created a website for a small resort in Mexico using Wix. This platform was selected to allow the owners of the resort the ability to make changes with greater ease.",
-          full_description: "I designed and created a website for a small resort in Mexico using Wix. This platform was selected to allow the owners of the resort the ability to make changes with greater ease.",
+          short_description: "I designed and built a website for a small resort located in Mexico. The Wix platform was selected to allow the owners of the resort the ability to make changes with greater ease.",
+          full_description: "When Mayte (from Bungalows Lydia) and I discussed what was important to her in a new website, I learned how important images of the resort were to attract new guests. She communicated the beautiful location of the resort on the Pacific Ocean and how the sunsets and whale sitings motivated guests to visit year after year. With this in mind, I decided to create the website using large images of the resort and of each bungalow. We also discussed how updating the website was important so I used the Wix platform and taught Mayte how to perform changes to the site.",
           main_image: "https://github.com/bradefting/portfolio-website/blob/master/public/images/bungalows-lydia/new-bl-home.jpg?raw=true",
           old_image1: "https://github.com/bradefting/portfolio-website/blob/master/public/images/bungalows-lydia/old-bl-home.jpg?raw=true",
           old_image2: "https://github.com/bradefting/portfolio-website/blob/master/public/images/bungalows-lydia/old-sunset.jpg?raw=true",
