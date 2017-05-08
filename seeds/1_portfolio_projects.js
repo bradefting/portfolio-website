@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
           image4: "https://github.com/bradefting/portfolio-website/blob/master/public/images/therabot/messenger.jpg?raw=true",
           step1: "Click the ask button to start the conversation with Bender. Bender can pre-qualify you for the NRN program or offer information about other therapy programs.",
           step2: "Bender asks questions to determine if a user is a a good fit for the NRN program. Here an image is used as a reference to help users answer questions.",
-          step3: "After asking qualifying questions, Bender lets the user know they are a good fit or that they aren't at that time but to try again in the future.",
+          step3: "After asking qualifying questions, Bender informs the user if they are a good match for the program.",
           step4: "The same code that controls Bender on the TheraBot website can be used on Facebook Messenger using the Microsoft Bot Framework.",
           deployed_site: 'http://therabot.azurewebsites.net/',
           github_link: 'https://github.com/bradefting',
