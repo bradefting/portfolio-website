@@ -26,29 +26,6 @@ sr.reveal('.projects', {
   distance:'200px',
   delay: 1000,
 });
-// sr.reveal('.btn-default', {
-//   duration: 2000,
-//   delay: 3000,
-//   origin:'bottom'
-// });
-// sr.reveal('.projects-left', {
-//   duration: 2000,
-//   origin:'left',
-//   distance:'200px',
-//   delay: 1000,
-// });
-// sr.reveal('.projects-right', {
-//   duration: 2000,
-//   origin:'right',
-//   distance:'200px',
-//   delay: 1000,
-// });
-// sr.reveal('.projects-right', {
-//   duration: 2000,
-//   origin:'right',
-//   distance:'200px',
-//   delay: 1000,
-// });
 sr.reveal('.skills-head', {
   duration: 2000,
   origin:'bottom'
@@ -67,18 +44,6 @@ sr.reveal('.experience', {
   origin:'bottom',
   viewFactor: 0.2
 });
-// sr.reveal('.ex-left', {
-//   duration: 3000,
-//   origin:'left',
-//   distance:'300px',
-//   viewFactor: 0.25
-// });
-// sr.reveal('.ex-right', {
-//   duration: 3000,
-//   origin:'right',
-//   distance:'300px',
-//   viewFactor: 0.25
-// });
 sr.reveal('.education-head', {
   duration: 2000,
   origin:'bottom',
