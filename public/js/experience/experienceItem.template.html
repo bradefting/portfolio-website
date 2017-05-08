@@ -11,7 +11,7 @@
     <div class="col-xs-12 col-md-5">
       <div class="about">
         <h3 class="section"> {{ $ctrl.item.title }}</h3>
-        <p class="par-text">{{ $ctrl.item.short_description }}</p>
+        <p class="desc-text">{{ $ctrl.item.short_description }}</p>
         <br>
         <div class="col-xs-8 col-sm-6 center-block">
           <a ng-href="{{ $ctrl.item.deployed_site }}" class="btn btn-primary" target="_blank">Live Site</a>
@@ -23,7 +23,7 @@
   <div class="row top-bottom-margins">
     <h1 class="section">Description</h1>
     <div class="col-xs-10 col-xs-offset-1">
-      <p class="par-text">{{ $ctrl.item.full_description }}</p>
+      <p class="desc-text">{{ $ctrl.item.full_description }}</p>
     </div>
   </div>
   <br>
@@ -39,7 +39,7 @@
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.main_image }} " alt="Image of new site">
     </div>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <p class="par-text project-width"> {{ $ctrl.item.text1 }} </p>
+      <p class="desc-text project-width"> {{ $ctrl.item.text1 }} </p>
     </div>
   </div>
 
@@ -53,7 +53,7 @@
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.new_image1 }} " alt="Image of new site">
     </div>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <p class="par-text project-width"> {{ $ctrl.item.text2 }} </p>
+      <p class="desc-text project-width"> {{ $ctrl.item.text2 }} </p>
     </div>
   </div>
 
@@ -63,7 +63,7 @@
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.new_image2 }} " alt="Image of mobile site">
     </div>
     <div class="col-xs-12 col-sm-4">
-      <p class="par-text"> {{ $ctrl.item.text3 }} </p>
+      <p class="desc-text"> {{ $ctrl.item.text3 }} </p>
     </div>
   </div>
 
