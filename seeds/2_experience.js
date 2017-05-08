@@ -13,7 +13,7 @@ exports.seed = function(knex, Promise) {
           main_image: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/new-home-cart.jpg?raw=true",
           old_image1: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/old-home.jpg?raw=true",
           old_image2: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/old-ulti2.jpg?raw=true",
-          new_image1: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/new-download-video.jpg?raw=true",
+          new_image1: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/new-ulti2.jpg?raw=true",
           new_image2: "https://github.com/bradefting/portfolio-website/blob/master/public/images/paladin/paladin-mobile.jpg?raw=true",
           text1: "The revamp kept some visual similarities but moved the newsletter signup to the header to increase the signup rate and added the blog and mini cart to the homepage.",
           text2: "The changes that were made to the product pages were the addition of the mini cart and recently viewed items, the addition of sample videos for each video product, and we integrated the sales of downloadable products to the",
