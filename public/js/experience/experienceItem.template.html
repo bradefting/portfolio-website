@@ -2,15 +2,16 @@
   <a ui-sref="home" href="#"><img class="img-responsive" src="./images/grey-back.png" alt="arrow to top"></a>
 </div>
 
-<div class="container">
+<div class="container text-center">
+
   <div class="row">
     <div class="col-xs-12 col-md-6 col-md-offset-1">
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.main_image }} " alt="Image of experience">
     </div>
     <div class="col-xs-12 col-md-5">
       <div class="about">
-        <h3 class="text-center section"> {{ $ctrl.item.title }}</h3>
-        <p class="par-text text-center">{{ $ctrl.item.short_description }}</p>
+        <h3 class="section"> {{ $ctrl.item.title }}</h3>
+        <p class="par-text">{{ $ctrl.item.short_description }}</p>
         <br>
         <div class="col-xs-8 col-sm-6 center-block">
           <a ng-href="{{ $ctrl.item.deployed_site }}" class="btn btn-primary" target="_blank">Live Site</a>
@@ -18,57 +19,52 @@
       </div>
     </div>
   </div>
-</div>
 
-<div class="container">
   <div class="row top-bottom-margins">
-    <h1 class="section text-center">Description</h1>
-    <p class="par-text text-center">{{ $ctrl.item.full_description }}</p>
+    <h1 class="section">Description</h1>
+    <div class="col-xs-10 col-xs-offset-1">
+      <p class="par-text">{{ $ctrl.item.full_description }}</p>
+    </div>
   </div>
   <br>
-</div>
 
-<div class="container">
   <div class="row top-bottom-margins">
-    <h1 class="section text-center">Old Site vs New Site</h1>
+    <h1 class="section">Old Site vs New Site</h1>
     <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-      <p class="par-text text-center">Old Homepage</p>
+      <p class="par-text">Old Homepage</p>
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.old_image1 }} " alt="Image of old site">
     </div>
     <div class="col-xs-12 col-sm-5 bottom-margin">
-      <p class="par-text text-center">New Homepage</p>
+      <p class="par-text">New Homepage</p>
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.main_image }} " alt="Image of new site">
     </div>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <p class="par-text project-width text-center"> {{ $ctrl.item.text1 }} </p>
+      <p class="par-text project-width"> {{ $ctrl.item.text1 }} </p>
     </div>
   </div>
-</div>
 
-<div class="container">
   <div class="row top-bottom-margins">
     <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-      <p class="par-text text-center">Old Product Page</p>
+      <p class="par-text">Old Product Page</p>
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.old_image2 }} " alt="Image of old site">
     </div>
     <div class="col-xs-12 col-sm-5 bottom-margin">
-      <p class="par-text text-center">New Product Page</p>
+      <p class="par-text">New Product Page</p>
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.new_image1 }} " alt="Image of new site">
     </div>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <p class="par-text project-width text-center"> {{ $ctrl.item.text2 }} </p>
+      <p class="par-text project-width"> {{ $ctrl.item.text2 }} </p>
     </div>
   </div>
-</div>
 
-<div class="container">
   <div class="row top-bottom-margins">
-    <h1 class="section text-center">New Mobile Site</h1>
+    <h1 class="section">New Mobile Site</h1>
     <div class="col-xs-12 col-sm-4 col-sm-offset-2">
       <img class="project-thumbnail center-block img-responsive" ng-src=" {{ $ctrl.item.new_image2 }} " alt="Image of mobile site">
     </div>
     <div class="col-xs-12 col-sm-4">
-      <p class="par-text text-center"> {{ $ctrl.item.text3 }} </p>
+      <p class="par-text"> {{ $ctrl.item.text3 }} </p>
     </div>
   </div>
+
 </div>
