@@ -25,6 +25,7 @@
   "bugs": {
     "url": "https://github.com/bradefting/portfolio-website/issues"
   },
+  "homepage": "https://github.com/bradefting/portfolio-website#readme",
   "engines": {
     "node": "7.8.0"
   }
