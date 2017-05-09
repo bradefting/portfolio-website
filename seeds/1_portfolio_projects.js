@@ -53,7 +53,7 @@ exports.seed = function(knex, Promise) {
           title: 'GooseHire',
           tag_line: "Goose your resume. Get hired.",
           short_description: "Full-stack web app that matches a user's skills with job descriptions using the Indeed job search API. Users can save job searches using MongoDB.",
-          full_description: "GooseHire is a full-stack web app that uses AngularJS to create a single-page application. Component based Angular 1.6 was used to build this app.",
+          full_description: "GooseHire is a full-stack web app that uses AngularJS to create a single-page application. Component based Angular 1.6 is used to data-bind the model and view and ui-router is used for state based routing. A NodeJS server is used with Mongoose to route the requests to a MongoDB database. Passport OAuth using LinkedIn is used to authenticate users at login. ",
           technologies: 'AngularJS, Pure.css, NodeJS, MongoDB, Mongoose, Passport OAuth, Heroku',
           api: 'Indeed Job Search',
           main_image: 'https://github.com/bradefting/portfolio-website/blob/master/public/images/goosehire/GooseHire.jpg?raw=true',
