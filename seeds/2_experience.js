@@ -30,7 +30,7 @@ exports.seed = function(knex, Promise) {
           full_description: "When Mayte (from Bungalows Lydia) and I discussed what was important to her in a new website, I learned how important images of the resort were to attract new guests. She communicated the beautiful location of the resort on the Pacific Ocean and how the sunsets and whale sightings motivated guests to visit year after year. With this in mind, I decided to create the website using large images of the resort and of each bungalow. We also discussed how updating the website was important so I used the Wix platform and taught Mayte how to perform future changes to the site.",
           main_image: "https://s3-us-west-2.amazonaws.com/bradsportfolio/bungalows_lydia/new-bl-home.jpg",
           old_image1: "https://s3-us-west-2.amazonaws.com/bradsportfolio/bungalows_lydia/old-bl-home.jpg",
-          old_image2: "https://github.com/bradefting/portfolio-website/blob/master/public/images/bungalows-lydia/old-sunset.jpg?raw=true",
+          old_image2: "https://s3-us-west-2.amazonaws.com/bradsportfolio/bungalows_lydia/old-sunset.jpg",
           new_image1: "https://s3-us-west-2.amazonaws.com/bradsportfolio/bungalows_lydia/new-sunset.jpg",
           new_image2: "https://s3-us-west-2.amazonaws.com/bradsportfolio/bungalows_lydia/old-sunset.jpg",
           text1: "Changes to the homepage include easy to find reservation link in the header, images and brief descriptions of the most popular bungalows, additional navigation links, and a larger slideshow to better showcase the resort.",
