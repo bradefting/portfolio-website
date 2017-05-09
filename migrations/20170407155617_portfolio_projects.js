@@ -15,10 +15,10 @@ exports.up = function(knex, Promise) {
     table.string('image2').notNullable();
     table.string('image3').notNullable();
     table.string('image4').notNullable();
-    table.string('step1', 400).notNullable();
-    table.string('step2', 400).notNullable();
-    table.string('step3', 400).notNullable();
-    table.string('step4', 400).notNullable();
+    table.string('step1', 500).notNullable();
+    table.string('step2', 500).notNullable();
+    table.string('step3', 500).notNullable();
+    table.string('step4', 500).notNullable();
     table.string('deployed_site').notNullable();
     table.string('github_link').notNullable();
     table.string('video_link').notNullable();
