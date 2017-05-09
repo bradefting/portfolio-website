@@ -15,6 +15,8 @@
      vm.$onInit = $onInit;
 
      function $onInit() {
+       scrollTo(0,0);
+       
        $http.get(`/experience/${$stateParams.id}`)
          .then((response) => {
            vm.item = response.data;
