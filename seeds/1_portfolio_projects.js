@@ -10,7 +10,7 @@ exports.seed = function(knex, Promise) {
           id: 1,
           title: 'TheraBot',
           tag_line: "Our bot knows therapy.",
-          short_description: "Web app that uses a bot to pre-qualify users for a spinal cord injury rehabilitation program. Uses Microsoft Bot Framework to accept and qualify users on website and on Facebook Messenger.",
+          short_description: "Web app that uses a bot to pre-qualify users for a spinal cord injury rehabilitation program. Uses Microsoft Bot Framework to accept user input on website and on Facebook Messenger.",
           full_description: "TheraBot is a web app that uses the Microsoft Bot Framework to create a bot, named Bender, that pre-qualifies users for a spinal cord injury rehabilitation program. Bender is programmed to ask users various questions and at the end makes a decision if the user is a good fit for a particular program. Bender also displays a slideshow of other programs that the rehab center offers. Bots like Bender are beneficial to companies to help answer frequently asked questions or to offer other assistance when an actual representative isn't available.",
           technologies: 'Microsoft Bot Framework, Azure App Services, NodeJS, Bootstrap',
           api: 'Facebook Messenger',
