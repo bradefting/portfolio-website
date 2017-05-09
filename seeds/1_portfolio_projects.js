@@ -51,7 +51,7 @@ exports.seed = function(knex, Promise) {
         knex('portfolio_projects').insert({
           id: 3,
           title: 'NightLite',
-          tag_line: "Find the best locations to stargaze.",
+          tag_line: "Search for the best locations to stargaze.",
           short_description: "Full-stack CRUD app to search and share the best locations for stargazing. Uses PostgreSQL to store locations and ESRI's light pollution map to display.",
           full_description: "",
           technologies: 'Materialize, jQuery, AJAX, NodeJS, Express, Knex.js, PostgreSQL, Heroku',
