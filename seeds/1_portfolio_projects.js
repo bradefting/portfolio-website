@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
           title: 'NightLite',
           tag_line: "Search and share the best locations to stargaze.",
           short_description: "Full-stack CRUD app to search and share the best locations for stargazing. Uses PostgreSQL to store locations and ESRI's light pollution map to display.",
-          full_description: "NightLite is a CRUD app that allows users to create observation points on a light pollution map, read observation points posted by other users, and update and delete observation points. NightLite is a full-stack app that uses a Node server and a PostreSQL database to store the users login, observation, and comment data. CRUD functionality is executed using AJAX requests and Express and Knex.js are used to route the requests and query the database.",
+          full_description: "NightLite is a CRUD app that allows users to create observation points on a light pollution map, read observation points posted by other users, and update and delete observation points. NightLite is a full-stack app that uses a Node server and PostreSQL database to store the users login, observation, and comment data. CRUD functionality is executed using AJAX requests and Express and Knex.js are used to route the requests and query the database.",
           technologies: 'Materialize, jQuery, AJAX, NodeJS, Express, Knex.js, PostgreSQL, Heroku',
           api: 'Esri ArcGIS Maps',
           main_image: 'https://s3-us-west-2.amazonaws.com/bradsportfolio/nightlite/NightLite.jpg',
