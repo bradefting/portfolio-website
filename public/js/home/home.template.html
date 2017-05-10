@@ -43,11 +43,13 @@
         <div class="projects">
           <div class="col-sm-12 col-md-6" ng-repeat="project in $ctrl.projects">
             <!-- <div class="projects-left"> -->
+            <a href="" ui-sref="project({id: project.id})">
               <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ project.main_image }} " alt="Image of project">
               <h3 class="dark-text">{{ project.title }}</h3>
               <p class="par-text">{{ project.short_description }}</p>
               <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="project({id: project.id})" name="project">See more</button>
-              <br>
+            </a>
+            <br>
             <!-- </div> -->
           </div>
 
@@ -111,10 +113,12 @@
           &nbsp;Experience</h2>
 
         <div class="col-xs-12 col-sm-6" ng-repeat="item in $ctrl.experiences">
-          <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ item.main_image }} " alt="Image of project">
-          <h3 class="dark-text">{{ item.title }}</h3>
-          <p class="par-text">{{ item.short_description }}</p>
-          <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="experience({id: item.id})" name="project">See more</button>
+          <a href="" ui-sref="experience({id: item.id})">
+            <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ item.main_image }} " alt="Image of project">
+            <h3 class="dark-text">{{ item.title }}</h3>
+            <p class="par-text">{{ item.short_description }}</p>
+            <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="experience({id: item.id})" name="project">See more</button>
+          </a>
         </div>
 
       </div>
