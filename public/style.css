@@ -42,6 +42,12 @@ body {
   margin-bottom: 1em;
 }
 
+.intro{
+  font-size: 40px;
+  font-weight: 200;
+  color: #343333;
+}
+
 .top-bottom-margins {
   margin: 3em 0;
 }
