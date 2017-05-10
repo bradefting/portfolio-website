@@ -67,7 +67,7 @@ exports.seed = function(knex, Promise) {
           step4: "Update your skills and technologies to better align with the job posting and paste the updated skills and technologies in your resume using the copy to clipboard feature.",
           deployed_site: 'https://q3-goosehire.herokuapp.com/',
           github_link: 'https://github.com/bradefting/q3-goosehire',
-          video_link: ''
+          video_link: 'https://youtu.be/c1XagsRHcYI'
         }),
         knex('portfolio_projects').insert({
           id: 4,
