@@ -27,38 +27,39 @@
     </div>
   </div>
 
-  <div class="row top-bottom-margins">
-    <h1 class="section">Old Site vs New Site</h1>
-    <div class="col-xs-12 col-sm-5 col-sm-offset-1 img1">
+  <h1 class="section">Old Site vs New Site</h1>
+
+  <div class="row top-bottom-margins" id="fade1">
+    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
       <p class="par-text">Old Homepage</p>
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.old_image1 }} " alt="Image of old site">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.old_image1 }} " alt="Image of old homepage">
     </div>
-    <div class="col-xs-12 col-sm-5 bottom-margin img1">
+    <div class="col-xs-12 col-sm-5 bottom-margin">
       <p class="par-text">New Homepage</p>
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.main_image }} " alt="Image of new site">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.main_image }} " alt="Image of new homepage">
     </div>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
       <p class="desc-text project-width">{{ $ctrl.item.text1 }}</p>
     </div>
   </div>
 
-  <div class="row top-bottom-margins">
-    <div class="col-xs-12 col-sm-5 col-sm-offset-1 img2">
+  <div class="row top-bottom-margins" id="fade2">
+    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
       <p class="par-text">Old Product Page</p>
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.old_image2 }} " alt="Image of old site">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.old_image2 }} " alt="Image of old product page">
     </div>
-    <div class="col-xs-12 col-sm-5 bottom-margin img2">
+    <div class="col-xs-12 col-sm-5 bottom-margin">
       <p class="par-text">New Product Page</p>
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.new_image1 }} " alt="Image of new site">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.new_image1 }} " alt="Image of new product page">
     </div>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
       <p class="desc-text project-width">{{ $ctrl.item.text2 }}</p>
     </div>
   </div>
 
-  <div class="row top-bottom-margins">
+  <div class="row top-bottom-margins" id="fade3">
     <h1 class="section">New Mobile Site</h1>
-    <div class="col-xs-12 col-sm-4 col-sm-offset-2 img3">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-2 img5">
       <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.new_image2 }} " alt="Image of mobile site">
     </div>
     <div class="col-xs-12 col-sm-4">
@@ -72,25 +73,22 @@
   window.sr = ScrollReveal();
     sr.reveal('.desc-text1', {
       duration: 2000,
-      delay: 500,
-      origin:'bottom'
+      delay: 500
     });
-    sr.reveal('.img1', {
+    sr.reveal('#fade1', {
       duration: 2000,
-      origin:'bottom',
       delay: 2000,
-      viewFactor: 0.40
+      viewFactor: 0.35
     });
-    sr.reveal('.img2', {
+    sr.reveal('#fade2', {
       duration: 2000,
-      origin:'bottom',
       delay: 2000,
-      viewFactor: 0.40
+      viewFactor: 0.35
     });
-    sr.reveal('.img3', {
+    sr.reveal('#fade3', {
       duration: 2000,
-      origin:'bottom',
-      viewFactor: 0.40
+      delay: 2500,
+      viewFactor: 0.25
     });
 
     // Smooth Scrolling
