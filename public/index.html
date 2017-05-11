@@ -8,21 +8,22 @@
   <title>Brad Efting</title>
   <link rel="icon" href="./images/favicon.png">
 
-  <!--angular  -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
-
   <!--bootstrap CSS  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <!--ui-router  -->
-  <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js" defer></script>
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <!--scrollreveal -->
-  <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <ui-view></ui-view>
 
   <!--jQuery for Boostrap  -->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -32,6 +33,12 @@
   <!--bootstrap JS  -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <!--angular  -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
+
+  <!--ui-router  -->
+  <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js" defer></script>
+
   <!--angular components -->
   <script src="/js/app/app.module.js" defer></script>
   <script src="/js/app/app.component.js" defer></script>
@@ -39,12 +46,6 @@
   <script src="/js/home/home.component.js" defer></script>
   <script src="/js/project/projectItem.component.js" defer></script>
   <script src="/js/experience/experienceItem.component.js" defer></script>
-
-</head>
-
-<body>
-
-  <ui-view></ui-view>
 
 </body>
 </html>

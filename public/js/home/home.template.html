@@ -42,7 +42,7 @@
 
         <div class="projects">
           <div class="col-sm-12 col-md-6" ng-repeat="project in $ctrl.projects">
-            <!-- <div class="projects-left"> -->
+
             <a href="" ui-sref="project({id: project.id})">
               <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ project.main_image }} " alt="Image of project">
               <h3 class="dark-text">{{ project.title }}</h3>
@@ -50,7 +50,7 @@
               <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="project({id: project.id})" name="project">See more</button>
             </a>
             <br>
-            <!-- </div> -->
+
           </div>
 
         </div>
@@ -158,7 +158,7 @@
 
           <div class="row">
             <div class="col-xs-6 col-sm-3 col-sm-offset-2">
-  
+
               <div>
                 <a href="https://github.com/bradefting" target="_blank" class="par-text"><img class="logo" src="./images/github.png" alt="GitHub logo with link"> GitHub</a>
               </div>
@@ -188,3 +188,60 @@
   </section>
 
 </main>
+
+<script>
+  window.sr = ScrollReveal();
+    sr.reveal('.intro', {
+      duration: 1500,
+      delay: 500,
+      origin:'top',
+    });
+    sr.reveal('.projects-head', {
+      duration: 2000,
+      delay: 500,
+      origin:'bottom',
+    });
+    sr.reveal('.projects', {
+      duration: 2500,
+      origin:'bottom',
+      distance:'150px',
+      delay: 1000,
+    });
+    sr.reveal('.skills-head', {
+      duration: 2000,
+      origin:'bottom',
+      delay: 500,
+      viewFactor: 0.20
+    });
+    sr.reveal('.skills-box', {
+      duration: 3000,
+      origin:'bottom',
+      viewFactor: 0.25
+    });
+    sr.reveal('.experience-head', {
+      duration: 2000,
+      origin:'bottom',
+      viewFactor: 0.25
+    });
+    sr.reveal('.experience', {
+      duration: 2000,
+      origin:'bottom',
+      viewFactor: 0.30,
+      delay: 1500
+    });
+    sr.reveal('.education-head', {
+      duration: 2000,
+      origin:'bottom',
+      viewFactor: 0.25
+    });
+    sr.reveal('.education', {
+      duration: 2000,
+      origin:'bottom',
+      viewFactor: 0.1
+    });
+    sr.reveal('#contact', {
+      duration: 2000,
+      origin:'bottom',
+    });
+
+</script>

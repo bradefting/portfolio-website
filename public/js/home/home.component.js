@@ -13,7 +13,6 @@
       const vm = this;
 
       vm.$onInit = $onInit;
-      // vm.createMessage = createMessage;
 
       function $onInit(){
         scrollTo(0,0);

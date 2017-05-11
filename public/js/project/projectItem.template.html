@@ -29,7 +29,7 @@
   <div class="row top-bottom-margins">
     <h1 class="section">Description</h1>
     <div class="col-xs-10 col-xs-offset-1">
-      <p class="desc-text">{{ $ctrl.project.full_description }}</p>
+      <p class="desc-text desc-text1">{{ $ctrl.project.full_description }}</p>
     </div>
   </div>
 
@@ -40,13 +40,13 @@
       <p class="project-width desc-text">{{ $ctrl.project.step1 }}</p>
     </div>
     <div class="col-xs-12 col-sm-6">
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image1 }} " alt="Image of project">
+      <img class="project-thumbnail center-block img-responsive box-shadow img1" ng-src=" {{ $ctrl.project.image1 }} " alt="Image of project">
     </div>
   </div>
 
   <div class="row top-bottom-margins">
     <div class="col-xs-12 col-sm-6">
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image2 }} " alt="Image of project">
+      <img class="project-thumbnail center-block img-responsive box-shadow img2" ng-src=" {{ $ctrl.project.image2 }} " alt="Image of project">
     </div>
     <div class="col-xs-12 col-sm-6">
       <h1 class="section">2</h1>
@@ -60,13 +60,13 @@
       <p class="desc-text project-width">{{ $ctrl.project.step3 }}</p>
     </div>
     <div class="col-xs-12 col-sm-6">
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image3 }} " alt="Image of project">
+      <img class="project-thumbnail center-block img-responsive box-shadow img3" ng-src=" {{ $ctrl.project.image3 }} " alt="Image of project">
     </div>
   </div>
 
   <div class="row top-bottom-margins">
     <div class="col-xs-12 col-sm-6">
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image4 }} " alt="Image of project">
+      <img class="project-thumbnail center-block img-responsive box-shadow img4" ng-src=" {{ $ctrl.project.image4 }} " alt="Image of project">
     </div>
     <div class="col-xs-12 col-sm-6">
       <h1 class="section">4</h1>
@@ -76,7 +76,7 @@
 
   <div class="row top-bottom-margins">
     <h1 class="section">Technologies & APIs</h1>
-    <div class="row">
+    <div class="row tech">
       <div class="col-xs-12 col-sm-6">
         <h3 class="dark-text project-width">Technologies:</h3>
         <p class="desc-text project-width"> {{ $ctrl.project.technologies }}</p>
@@ -90,3 +90,52 @@
   </div>
 
 </section>
+
+<script>
+  window.sr = ScrollReveal();
+    sr.reveal('.desc-text1', {
+      duration: 2000,
+      delay: 500,
+      origin:'bottom'
+    });
+    sr.reveal('.img1', {
+      duration: 2500,
+      origin:'bottom',
+      viewFactor: 0.30,
+      delay: 2000
+    });
+    sr.reveal('.img2', {
+      duration: 2000,
+      origin:'bottom',
+      viewFactor: 0.30
+    });
+    sr.reveal('.img3', {
+      duration: 3000,
+      origin:'bottom',
+      viewFactor: 0.30
+    });
+    sr.reveal('.img4', {
+      duration: 2000,
+      origin:'bottom',
+      viewFactor: 0.30
+    });
+    sr.reveal('.tech', {
+      duration: 2000,
+      origin:'bottom',
+      viewFactor: 0.25
+    });
+
+    // Smooth Scrolling
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+</script>
