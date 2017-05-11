@@ -39,14 +39,14 @@
       <h1 class="section">1</h1>
       <p class="project-width desc-text">{{ $ctrl.project.step1 }}</p>
     </div>
-    <div class="col-xs-12 col-sm-6">
-      <img class="project-thumbnail center-block img-responsive box-shadow img1" ng-src=" {{ $ctrl.project.image1 }} " alt="Image of project">
+    <div class="col-xs-12 col-sm-6 img1">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image1 }} " alt="Image of project">
     </div>
   </div>
 
   <div class="row top-bottom-margins">
-    <div class="col-xs-12 col-sm-6">
-      <img class="project-thumbnail center-block img-responsive box-shadow img2" ng-src=" {{ $ctrl.project.image2 }} " alt="Image of project">
+    <div class="col-xs-12 col-sm-6 img2">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image2 }} " alt="Image of project">
     </div>
     <div class="col-xs-12 col-sm-6">
       <h1 class="section">2</h1>
@@ -59,14 +59,14 @@
       <h1 class="section">3</h1>
       <p class="desc-text project-width">{{ $ctrl.project.step3 }}</p>
     </div>
-    <div class="col-xs-12 col-sm-6">
-      <img class="project-thumbnail center-block img-responsive box-shadow img3" ng-src=" {{ $ctrl.project.image3 }} " alt="Image of project">
+    <div class="col-xs-12 col-sm-6 img3">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image3 }} " alt="Image of project">
     </div>
   </div>
 
   <div class="row top-bottom-margins">
-    <div class="col-xs-12 col-sm-6">
-      <img class="project-thumbnail center-block img-responsive box-shadow img4" ng-src=" {{ $ctrl.project.image4 }} " alt="Image of project">
+    <div class="col-xs-12 col-sm-6 img4">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image4 }} " alt="Image of project">
     </div>
     <div class="col-xs-12 col-sm-6">
       <h1 class="section">4</h1>
@@ -101,23 +101,22 @@
     sr.reveal('.img1', {
       duration: 2500,
       origin:'bottom',
-      viewFactor: 0.30,
-      delay: 2000
+      viewFactor: 0.35
     });
     sr.reveal('.img2', {
       duration: 2000,
       origin:'bottom',
-      viewFactor: 0.30
+      viewFactor: 0.35
     });
     sr.reveal('.img3', {
       duration: 3000,
       origin:'bottom',
-      viewFactor: 0.30
+      viewFactor: 0.35
     });
     sr.reveal('.img4', {
       duration: 2000,
       origin:'bottom',
-      viewFactor: 0.30
+      viewFactor: 0.35
     });
     sr.reveal('.tech', {
       duration: 2000,

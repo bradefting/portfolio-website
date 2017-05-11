@@ -112,13 +112,15 @@
           <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
           &nbsp;Experience</h2>
 
-        <div class="col-xs-12 col-sm-6" ng-repeat="item in $ctrl.experiences">
-          <a href="" ui-sref="experience({id: item.id})">
-            <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ item.main_image }} " alt="Image of project">
-            <h3 class="dark-text">{{ item.title }}</h3>
-            <p class="par-text">{{ item.short_description }}</p>
-            <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="experience({id: item.id})" name="project">See more</button>
-          </a>
+        <div class="experience">
+          <div class="col-xs-12 col-sm-6" ng-repeat="item in $ctrl.experiences">
+            <a href="" ui-sref="experience({id: item.id})">
+              <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ item.main_image }} " alt="Image of project">
+              <h3 class="dark-text">{{ item.title }}</h3>
+              <p class="par-text">{{ item.short_description }}</p>
+              <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="experience({id: item.id})" name="project">See more</button>
+            </a>
+          </div>
         </div>
 
       </div>
@@ -226,8 +228,7 @@
     sr.reveal('.experience', {
       duration: 2000,
       origin:'bottom',
-      viewFactor: 0.30,
-      delay: 1500
+      viewFactor: 0.30
     });
     sr.reveal('.education-head', {
       duration: 2000,
