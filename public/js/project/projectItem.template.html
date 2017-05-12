@@ -36,42 +36,42 @@
   <h1 class="section">How it works</h1>
 
   <div class="row top-bottom-margins">
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-sm-12 col-md-6">
       <h1 class="section">1</h1>
       <p class="project-width desc-text">{{ $ctrl.project.step1 }}</p>
     </div>
-    <div class="col-xs-12 col-sm-6" id="fade1">
+    <div class="col-sm-12 col-md-6" id="fade1">
       <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image1 }} " alt="Image of project">
     </div>
   </div>
 
   <div class="row top-bottom-margins">
-    <div class="col-xs-12 col-sm-6" id="fade2">
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image2 }} " alt="Image of project">
-    </div>
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-sm-12 col-md-6 col-md-push-6">
       <h1 class="section">2</h1>
       <p class="desc-text project-width">{{ $ctrl.project.step2 }}</p>
+    </div>
+    <div class="col-sm-12 col-md-6 col-md-pull-6" id="fade2">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image2 }} " alt="Image of project">
     </div>
   </div>
 
   <div class="row top-bottom-margins">
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-sm-12 col-md-6">
       <h1 class="section">3</h1>
       <p class="desc-text project-width">{{ $ctrl.project.step3 }}</p>
     </div>
-    <div class="col-xs-12 col-sm-6" id="fade3">
+    <div class="col-sm-12 col-md-6" id="fade3">
       <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image3 }} " alt="Image of project">
     </div>
   </div>
 
   <div class="row top-bottom-margins">
-    <div class="col-xs-12 col-sm-6" id="fade4">
-      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image4 }} " alt="Image of project">
-    </div>
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-sm-12 col-md-6 col-md-push-6">
       <h1 class="section">4</h1>
       <p class="desc-text project-width">{{ $ctrl.project.step4 }}</p>
+    </div>
+    <div class="col-sm-12 col-md-6 col-md-pull-6" id="fade4">
+      <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.project.image4 }} " alt="Image of project">
     </div>
   </div>
 
@@ -95,42 +95,19 @@
 <script>
   window.sr = ScrollReveal();
     sr.reveal('.desc-text1', {
-      duration: 2000,
-      delay: 500,
-      origin:'bottom'
+      duration: 1000
     });
     sr.reveal('#fade1', {
-      duration: 2000,
-      delay: 1000,
-      // viewFactor: 0.35
+      duration: 1000
     });
     sr.reveal('#fade2', {
-      duration: 2000,
-      delay: 1000,
-      // viewFactor: 0.35
+      duration: 1000
     });
     sr.reveal('#fade3', {
-      duration: 3000,
-      delay: 1000,
-      // viewFactor: 0.35
+      duration: 1000
     });
     sr.reveal('#fade4', {
-      duration: 2000,
-      delay: 1000,
-      // viewFactor: 0.35
+      duration: 1000
     });
 
-    // Smooth Scrolling
-    $('a[href*="#"]:not([href="#"])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
 </script>

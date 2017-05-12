@@ -127,8 +127,8 @@ ul {
 /*****  education logos   *****/
 .logo {
   height: 35px;
-  margin-left: 3em;
-  width: auto
+  margin: 0 1em;
+  width: auto;
 }
 
 /*****drop shadow *****/

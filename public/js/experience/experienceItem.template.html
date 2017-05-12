@@ -72,34 +72,16 @@
 <script>
   window.sr = ScrollReveal();
     sr.reveal('.desc-text1', {
-      duration: 2000,
-      delay: 500
+      duration: 1000
     });
     sr.reveal('#fade1', {
-      duration: 2000,
-      delay: 1000,
-      // viewFactor: 0.35
+      duration: 1000
     });
     sr.reveal('#fade2', {
-      duration: 2000,
-      delay: 1000,
-      // viewFactor: 0.35
+      duration: 1000
     });
     sr.reveal('#fade3', {
-      duration: 2000,
-      delay: 1000,
+      duration: 1000
     });
-
-    // Smooth Scrolling
-    $('a[href*="#"]:not([href="#"])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
+    
+</script>
