@@ -30,26 +30,26 @@
   <h1 class="section">Old Site vs New Site</h1>
 
   <div class="row top-bottom-margins" id="fade1">
-    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-      <p class="par-text">Old Homepage</p>
+    <div class="col-sm-12 col-md-5 col-md-offset-1">
+      <p class="par-text extra-padding">Old Homepage</p>
       <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.old_image1 }} " alt="Image of old homepage">
     </div>
-    <div class="col-xs-12 col-sm-5 bottom-margin">
-      <p class="par-text">New Homepage</p>
+    <div class="col-sm-12 col-md-5 bottom-margin">
+      <p class="par-text extra-padding">New Homepage</p>
       <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.main_image }} " alt="Image of new homepage">
     </div>
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <div class="col-sm-12 col-md-10 col-md-offset-1">
       <p class="desc-text project-width">{{ $ctrl.item.text1 }}</p>
     </div>
   </div>
 
   <div class="row top-bottom-margins" id="fade2">
-    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-      <p class="par-text">Old Product Page</p>
+    <div class="col-sm-12 col-md-5 col-md-offset-1">
+      <p class="par-text extra-padding">Old Product Page</p>
       <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.old_image2 }} " alt="Image of old product page">
     </div>
-    <div class="col-xs-12 col-sm-5 bottom-margin">
-      <p class="par-text">New Product Page</p>
+    <div class="col-sm-12 col-md-5 bottom-margin">
+      <p class="par-text extra-padding">New Product Page</p>
       <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.new_image1 }} " alt="Image of new product page">
     </div>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -59,10 +59,10 @@
 
   <div class="row top-bottom-margins" id="fade3">
     <h1 class="section">New Mobile Site</h1>
-    <div class="col-xs-12 col-sm-4 col-sm-offset-2 img5">
+    <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 img5">
       <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ $ctrl.item.new_image2 }} " alt="Image of mobile site">
     </div>
-    <div class="col-xs-12 col-sm-4">
+    <div class="col-xs-12 col-sm-5 col-md-4 step-padding">
       <p class="desc-text">{{ $ctrl.item.text3 }}</p>
     </div>
   </div>
@@ -83,5 +83,5 @@
     sr.reveal('#fade3', {
       duration: 1000
     });
-    
+
 </script>

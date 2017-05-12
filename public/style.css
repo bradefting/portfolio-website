@@ -5,11 +5,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*main {
-  color: #666;
-  font-family: 'Open Sans', sans-serif;
-}*/
-
 .dark-text {
   /*color: #578ccb;*/
   /*color: #337ab7*/
@@ -20,10 +15,15 @@ body {
 
 /*   paragraph text   */
 .par-text {
-  color: #666;
+  color: #666565;
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
+}
+
+/*  for experience  'old product text '*/
+.extra-padding{
+  padding: 5px 0 1px 0;
 }
 
 /* project/experience text */
@@ -31,7 +31,7 @@ body {
   font-size: 20px;
   font-weight: 300;
   line-height: 34px;
-  color: #666;
+  color: #666565;
 }
 
 /* about, skills, etc text   */
@@ -67,7 +67,6 @@ body {
 }
 
 .navbar-default {
-  /*text-transform: uppercase;*/
   border-bottom: 1px solid #e5e5e5;
   color: #000 !important;
   background-color: #fff;
@@ -80,12 +79,10 @@ body {
   padding-top: 30px;
 }
 
-
 /**** contact form ****/
 #contact {
   background: #f1f0ef;
 }
-
 
 /**** project ****/
 .project-thumbnail {
@@ -98,6 +95,10 @@ body {
 .project-width {
   width: 80%;
   margin: auto;
+}
+
+.step-padding {
+  padding: 2em 0;
 }
 
 /**** link hover   *****/
@@ -154,7 +155,8 @@ ul {
   position: fixed;
   top: 10%;
   left: 0.5%;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.4)
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 footer {
