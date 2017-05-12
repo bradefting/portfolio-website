@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
           text2: "The new product pages integrate the downloadable formats of products in a drop-down list, provide sample video clips from the products, and include download instructions for the downloadable formats. To the right of the product information a mini cart was added. A new section offering the product as a set and a section of recently viewed products were also added.",
           text3: "A mobile version of the website was built during the revamp for a better user experience on smaller devices. Some components of the full site, like the slideshow and blog feed, were removed from the mobile site because of the limited space. If a user on a smaller device prefers the full site, they can switch to the full site using a link in the footer.",
           text4: "",
-          deployed_site: "https://www.paladin-press.com/product/Stop-the-Bully"
+          deployed_site: "https://www.paladin-press.com/"
         }),
         knex('experience').insert({
           id: 2,
