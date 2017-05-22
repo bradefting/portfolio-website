@@ -41,7 +41,7 @@
           &nbsp;Projects</h2>
 
         <div class="projects">
-          <div class="col-sm-12 col-md-6" ng-repeat="project in $ctrl.projects">
+          <div class="col-sm-12 col-md-6" ng-repeat="project in $ctrl.projects | limitTo:4">
 
             <a href="" ui-sref="project({id: project.id})">
               <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ project.main_image }} " alt="Image of project">
