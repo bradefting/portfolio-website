@@ -89,6 +89,27 @@ exports.seed = function(knex, Promise) {
           deployed_site: 'http://brewzinga.surge.sh/',
           github_link: 'https://github.com/bradefting/Brewzinga',
           video_link: 'https://www.youtube.com/watch?v=aJO_bQ4lRUc&t=1s'
+        }),
+        knex('portfolio_projects').insert({
+          id: 5,
+          title: 'Galvanize Classified',
+          tag_line: "Buy and Sell the best video games.",
+          short_description: "Galvanize Classified is a project that I was assigned at Galvanize to showcase my ability to build a full CRUD application using AngularJS, Node, Express, and PostgreSQL.",
+          full_description: "Galvanize Classified is a project that I was assigned at Galvanize to showcase my ability to build a full CRUD application using AngularJS, Node, Express, and PostgreSQL. The app was built from scratch without the use of any generators. Tests were provided by Galvanize to verify the functionality of all CRUD routes.",
+          technologies: 'AngularJS, Bootstrap, Node, Express, Knex.js, PostgreSQL, Heroku',
+          api: 'No APIs on this project',
+          main_image: 'https://s3-us-west-2.amazonaws.com/bradsportfolio/galvanize_classified/Galvanize_Classified.jpg',
+          image1: "https://s3-us-west-2.amazonaws.com/bradsportfolio/galvanize_classified/sort-items.jpg",
+          image2: "https://s3-us-west-2.amazonaws.com/bradsportfolio/galvanize_classified/post-item.jpg",
+          image3: "https://s3-us-west-2.amazonaws.com/bradsportfolio/galvanize_classified/edit-item.jpg",
+          image4: "",
+          step1: "Sort products by post date and price. Use search terms to search for products and app will show products that use the term in the title or description.",
+          step2: "Post a product to sell with the title, price, item image, and description. All fields are required before the post can be created.",
+          step3: "Edit a post to change the title, price, item image, and description. The edit screen also allows users to delete a post when the item sells.",
+          step4: "",
+          deployed_site: 'https://galvanize-classified.herokuapp.com/',
+          github_link: 'https://github.com/bradefting/Galvanize_Classified_3',
+          video_link: ''
         })
       ])
       .then(function(){

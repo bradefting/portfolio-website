@@ -7,7 +7,7 @@
      templateUrl: '/js/projectList/projectList.template.html'
    });
 
-   projectItemController.$inject = ['$http', '$stateParams', '$state'];
+   projectListController.$inject = ['$http', '$stateParams', '$state'];
 
    function projectListController($http, $stateParams, $state){
 
