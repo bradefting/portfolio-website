@@ -7,9 +7,9 @@
       templateUrl: '/js/home/home.template.html'
     });
 
-    homeController.$inject = ['$http', '$scope', '$location', '$anchorScroll'];
+    homeController.$inject = ['$http', '$scope', '$location'];
 
-    function homeController($http, $scope, $location, $anchorScroll){
+    function homeController($http, $scope, $location){
       const vm = this;
 
       vm.$onInit = $onInit;

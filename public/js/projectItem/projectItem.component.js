@@ -4,7 +4,7 @@
  angular.module('app')
    .component('projectItem', {
      controller: projectItemController,
-     templateUrl: '/js/project/projectItem.template.html'
+     templateUrl: '/js/projectItem/projectItem.template.html'
    });
 
    projectItemController.$inject = ['$http', '$stateParams', '$state'];
@@ -17,7 +17,7 @@
 
      function $onInit() {
        scrollTo(0,0);
-       
+
        $http.get(`/projects/${$stateParams.id}`)
          .then((response) => {
            vm.project = response.data;
