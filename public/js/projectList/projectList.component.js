@@ -18,9 +18,10 @@
      function $onInit() {
        scrollTo(0,0);
 
-       $http.get('/projects/')
+       $http.get('/projects')
          .then((response) => {
-           vm.project = response.data;
+           vm.projects = response.data;
+           console.log(vm.projects);
          });
      }
    }

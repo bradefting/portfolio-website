@@ -1,1 +1,53 @@
-<h2>Project List</h2>
+<main class="container">
+
+  <section class="row top-margin">
+    <div class="col-xs-6 col-sm-4">
+      <div class="dropdown btn-margin">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Sort items by
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a ng-click="sortType = 'created_at'">Post Date</a></li>
+          <li><a ng-click="sortType = 'price'">Price: Lowest to highest</a></li>
+          <li><a ng-click="sortType = '-price'">Price: Highest to lowest</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-sm-4">
+      <div class="btn-margin">
+       Search: <input type="search" placeholder="Enter search term" ng-model="searchItem">
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="projects">
+    <!-- <div class="container"> -->
+      <div class="row top-bottom-margins text-center">
+        <h2 class="section projects-head">
+          <span class="glyphicon glyphicon-console" aria-hidden="true"></span>
+          &nbsp; Projects</h2>
+
+        <div class="projects">
+          <div class="row" ng-repeat="project in $ctrl.projects | filter:searchItem">
+            <div class="well">
+              <div class="media-left">
+                <img class="project-thumbnail center-block img-responsive box-shadow" ng-src=" {{ project.main_image }} " alt="Image of project">
+              </div>
+              <div class="media-body">
+                <h3 class="dark-text media-heading">{{ project.title }}</h3>
+
+                <p class="par-text">{{ project.short_description }}</p>
+                <button type="submit" class="btn btn-primary btn-sm center-block" ui-sref="project({id: project.id})" name="project">See more</button>
+              </div>
+            <br>
+          </div>
+        </div>
+
+      </div>
+    <!-- </div> -->
+  </section>
+<main>
