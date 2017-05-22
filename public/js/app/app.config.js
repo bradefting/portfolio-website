@@ -34,6 +34,12 @@
           parent: 'app',
           component: 'experienceItem'
         })
+        .state({
+          name: 'projectList',
+          url: '/projects',
+          parent: 'app',
+          component: 'projectList'
+        })
     }
 
 }());
