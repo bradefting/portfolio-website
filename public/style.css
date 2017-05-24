@@ -6,16 +6,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* margin for home, projectItem, experience templates*/
+.top-margin {
+  margin-top: 30px;
+}
+
 .dark-text {
   /*color: #578ccb;*/
   /*color: #337ab7*/
   color: #343333;
   font-size: 24px;
   font-weight: 400;
-}
-
-.top-margin {
-  margin-top: 30px;
 }
 
 /*   paragraph text   */
