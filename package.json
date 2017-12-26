@@ -4,6 +4,8 @@
   "description": "Portfolio Website",
   "main": "server.js",
   "dependencies": {
+    "angulartics": "^1.5.0",
+    "angulartics-google-tag-manager": "0.0.1",
     "body-parser": "^1.17.1",
     "dotenv": "^4.0.0",
     "express": "^4.15.0",
