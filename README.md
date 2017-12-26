@@ -9,3 +9,4 @@ heroku sta
 2. **PostgreSQL:** Relational database that stores project and experience data.
 3. **Express:** Framework used to create RESTful routes.
 4. **Heroku:** Used to deploy the application.
+5. **Google Tag Manager:** For website tracking in Google Analtyics
